@@ -58,6 +58,13 @@
       <version>${spring.version}</version>
       <scope>test</scope>
     </dependency>
+<!--
+    <dependency>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
+      <version>6.0.0</version>
+    </dependency>
+-->
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
@@ -73,7 +80,7 @@
   </parent>
 
   <properties>
-    <spring.version>6.0.0</spring.version>
+    <spring.version>5.3.23</spring.version>
   </properties>
 
   <build>
