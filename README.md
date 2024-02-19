@@ -1,10 +1,11 @@
 <img align="right" src="https://raw.github.com/wiki/zxing/zxing/zxing-logo.png"/>
 
-## Project in Maintenance Mode Only
+## Project in Maintenance Mode Only; Barcode Scanner not available
 
 The project is in maintenance mode, meaning, changes are driven by contributed patches.
 Only bug fixes and minor enhancements will be considered. The Barcode Scanner app can
-no longer be published, so it's unlikely any changes will be accepted for it.
+no longer be published, so it's unlikely any changes will be accepted for it. 
+It does not work with Android 14 and will not be updated. Please don't file an issue for it.
 There is otherwise no active development or roadmap for this project. It is "DIY".
 
 ## Get Started Developing
@@ -57,7 +58,7 @@ library implemented in Java, with ports to other languages.
 | [SCodes](https://github.com/scytheStudio/SCodes)                                          | Qt & Qml wrapper
 | [QZXing](https://github.com/ftylitak/qzxing)                                              | port to Qt framework
 | [glassechidna/zxing-cpp](https://github.com/glassechidna/zxing-cpp)                       | port to C++ (forked from the [deprecated official C++ port](https://github.com/zxing/zxing/tree/00f634024ceeee591f54e6984ea7dd666fab22ae/cpp))
-| [zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp)                             | latest/active port to C++, includes Android, iOS, Python, WASM and WinRT wrappers
+| [zxing-cpp/zxing-cpp](https://github.com/zxing-cpp/zxing-cpp)                             | latest/active port to C++, includes Android, C, iOS, .NET, Rust, Python, WASM and WinRT wrappers
 | [zxing_cpp.rb](https://github.com/glassechidna/zxing_cpp.rb)                              | bindings for Ruby (not just JRuby), powered by [zxing-cpp](https://github.com/glassechidna/zxing-cpp)
 | [jsqrcode](https://github.com/LazarSoft/jsqrcode)                                         | port to JavaScript
 | [python-zxing](https://github.com/oostendo/python-zxing)                                  | bindings for Python
@@ -87,15 +88,9 @@ library implemented in Java, with ports to other languages.
   * [Javadoc](https://zxing.github.io/zxing/apidocs/)
   * [Documentation Site](https://zxing.github.io/zxing/)
 
-## Contacting
-
-Post to the [discussion forum](https://groups.google.com/group/zxing) or tag a question with [`zxing`
-on StackOverflow](https://stackoverflow.com/questions/tagged/zxing).
-
 ## Etcetera
 
 [![codecov](https://codecov.io/gh/zxing/zxing/branch/master/graph/badge.svg?token=6RrJHvUMDl)](https://codecov.io/gh/zxing/zxing)
-[![Codacy](https://app.codacy.com/project/badge/Grade/5d1186edeb714f0187e3eb18cc6aeef1)](https://www.codacy.com/gh/zxing/zxing/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=zxing/zxing&amp;utm_campaign=Badge_Grade)
 
 QR code is trademarked by Denso Wave, inc. Thanks to Haase & Martin OHG for contributing the logo.
 

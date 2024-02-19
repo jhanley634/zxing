@@ -19,7 +19,7 @@
 
   <groupId>com.google.zxing</groupId>
   <artifactId>zxing-parent</artifactId>
-  <version>3.5.3-SNAPSHOT</version>
+  <version>3.5.4-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <dependencyManagement>
@@ -68,7 +68,7 @@
     <android.home>${env.ANDROID_HOME}</android.home>
     <proguard.plugin.version>2.6.0</proguard.plugin.version>
     <!-- This can't reference project.version as some subprojects version differently -->
-    <zxing.version>3.5.3-SNAPSHOT</zxing.version>
+    <zxing.version>3.5.4-SNAPSHOT</zxing.version>
     <android.platform>22</android.platform>
   </properties>
 
@@ -138,7 +138,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.12.1</version>
           <configuration>
             <source>${java.version}</source>
             <target>${java.version}</target>
@@ -298,7 +298,7 @@
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.2.3</version>
+          <version>3.2.5</version>
           <configuration>
             <forkCount>0.5C</forkCount>
             <systemPropertyVariables>
@@ -420,7 +420,7 @@
         <plugin>
           <groupId>org.apache.rat</groupId>
           <artifactId>apache-rat-plugin</artifactId>
-          <version>0.15</version>
+          <version>0.16</version>
           <configuration>
             <consoleOutput>true</consoleOutput>
             <ignoreErrors>true</ignoreErrors>
